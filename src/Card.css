@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cards {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    height: 260px;
+    width: 200px;
+    margin: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 11px;
+    box-shadow: rgba(67, 121, 246, 0.24) 0px 3px 8px;
+}
+
+.card .blob-top {
+    height: 10px;
+    width: 100%;
+    background-color: #00a8ff;
+    border-radius: 12px 12px 0 0 ;
+}
+
+.card .blob-bottom {
+    height: 10px;
+    width: 100%;
+    background-color: #00a8ff;
+    border-radius: 0 0 12px 12px ;
+    position: absolute;
+    bottom: 0;
+}
+
+.card .img {
+    margin: 30px;
+    height: 80px;
+    width: 80px;
+    border: 5px solid #00a8ff;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
