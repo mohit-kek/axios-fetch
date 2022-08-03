@@ -22,7 +22,7 @@
     box-shadow: rgba(67, 121, 246, 0.24) 0px 3px 8px;
 }
 
-.card .blob-top {
+.card .blob-top ,.card .blob-bottom {
     height: 10px;
     width: 100%;
     background-color: #00a8ff;
@@ -30,10 +30,6 @@
 }
 
 .card .blob-bottom {
-    height: 10px;
-    width: 100%;
-    background-color: #00a8ff;
-    border-radius: 0 0 12px 12px ;
     position: absolute;
     bottom: 0;
 }
